@@ -16,7 +16,7 @@ public class Main {
         Kirjanpito kirjanpito = (Kirjanpito) ctx.getBean("kirjanpito");
         Varasto varasto = (Varasto) ctx.getBean("varasto");
         Pankki pankki = (Pankki) ctx.getBean("pankki");
-        Viitegeneraattori viitegen = (Viitegeneraattori) ctx.getBean("generaattori");
+        Viitegeneraattori viitegen = (Viitegeneraattori) ctx.getBean("viitegeneraattori");
         Kauppa kauppa = (Kauppa) ctx.getBean("kauppa");
 
         // kauppa hoitaa yhden asiakkaan kerrallaan seuraavaan tapaan:
